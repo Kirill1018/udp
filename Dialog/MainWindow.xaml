@@ -1,0 +1,27 @@
+﻿<Window x:Class="Dialog.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Dialog"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <TextBlock Name="change_col">поменять цвет</TextBlock>
+        <TextBox Name="color"></TextBox>
+        <TextBlock Name="play_name">имя игрока</TextBlock>
+        <TextBox Name="name"></TextBox>
+        <TextBlock Name="new_col_of_play">новый цвет игрока</TextBlock>
+        <TextBlock Name="first_col">красный цвет</TextBlock>
+        <TextBox Name="red_col"></TextBox>
+        <TextBlock Name="sec_col">зелёный цвет</TextBlock>
+        <TextBox Name="green_col"></TextBox>
+        <TextBlock Name="third_col">синий цвет</TextBlock>
+        <TextBox Name="blue_col"></TextBox>
+        <Button Click="Button_Click">замена цвета</Button>
+        <TextBlock Name="size">размер</TextBlock>
+        <Button Name="small_size" Click="small_size_Click">маленький размер</Button>
+        <Button Name="med_size" Click="med_size_Click">средний размер</Button>
+        <Button Name="big_size" Click="big_size_Click">большой размер</Button>
+        </StackPanel>
+</Window>
